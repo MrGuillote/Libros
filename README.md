@@ -23,7 +23,6 @@ Con los más cordiales saludos, soy,
 Sinceramente suyo,  
 ![image](https://github.com/MrGuillote/Libros/assets/89352244/e8007528-f0c4-4022-97df-0a2ca6e5a1f6)
 
-
 Adjunto:  
 6 copias del artículo sobre "Sistemas de Cifrado de Telegramas".
 
@@ -34,9 +33,7 @@ Adjunto:
 **POR G. S. VERNAM**  
 *Asociado, A I E E*
 
-
 ![image](https://github.com/MrGuillote/Libros/assets/89352244/3a26f3b6-cd7c-4857-b58e-2715f980be63)
-
 
 #### Resumen
 
@@ -60,8 +57,8 @@ Este método de cifrado puede utilizarse con máquinas de varios tipos. La máqu
 
 Si se requiere algo más pequeño en tamaño y portátil, se puede utilizar la máquina mostrada en la Fig. 2. Esta máquina es liviana y suficientemente portátil, ya que no se requiere corriente eléctrica para su funcionamiento. Es más lenta que la máquina grande y requiere conocimiento del código estándar "Baudot" por parte del operador, pero sus mensajes son igualmente secretos.
 
-Estas máquinas se consideran adecuadas para su uso general por departamentos gubernamentales, empresas, 
-![image](https://github.com/MrGuillote/Libros/assets/89352244/f8613a5f-257e-42ba-a283-ba8ab64240a2)
+Estas máquinas se consideran adecuadas para su uso general por departamentos gubernamentales, empresas,  
+![image](https://github.com/MrGuillote/Libros/assets/89352244/f8613a5f-257e-42ba-a283-ba8ab64240a2)  
 etc., para manejar mensajes confidenciales de manera rápida y secreta. El método de uso puede variarse para adaptarse a las condiciones y de modo que haga que el descifrado no autorizado sea tan difícil como sea necesario hasta el punto en que se vuelva imposible incluso para un experto criptoanalista.
 
 ### Métodos para prevenir el acceso a los mensajes
@@ -116,3 +113,61 @@ Este método, si se realiza manualmente, es lento y laborioso y propenso a error
 ### Sistema de Cifrado de Telegramas Impresos
 
 Usando métodos mecánicos, este tipo de cifrado puede hacerse practicable para su uso. La Fig. 1 es una ilustración del cifrador de telegramas mencionado anteriormente, y que funciona sobre este principio. Como se mencionó anteriormente, esta máquina se desarrolló durante la reciente guerra y fue adoptada por el Cuerpo de Señales del Ejército de EE. UU.
+
+### Operación del sistema de cifrado telegráfico
+
+El mensaje cifrado se perfora primero en una cinta de papel utilizando el perforador de teclado. El código utilizado es el conocido código de cinco unidades de telegrama impreso, donde cada letra está representada por un pequeño orificio en una o más de cinco posiciones a lo largo de la cinta.
+
+En la Fig. 8 se muestra una cinta de mensajes cifrados. Dichos mensajes pueden imprimirse directamente en el telegrama en blanco con la dirección y la firma en inglés claro, y si se desea, se puede hacer una copia al carbón al mismo tiempo para fines de registro.
+
+### Prevención de acceso a los mensajes
+
+Hay dos métodos generales para asegurar el secreto en las comunicaciones telegráficas: (1) evitar o al menos dificultar el acceso a los mensajes o a las líneas de comunicación y (2) en el caso de comunicaciones telegráficas, haciendo que las líneas no puedan ser interceptadas mediante el uso de códigos y cifrados con claves conocidas solo por las partes autorizadas.
+
+Para evitar la intervención, se utilizan dispositivos de alarma sensibles que operan ante pequeños cambios en las constantes eléctricas del circuito de la línea. Sin embargo, la condición eléctrica de un circuito telegráfico cambia continuamente debido a variaciones en la temperatura y otras condiciones climáticas, lo que limita la utilidad de estos sistemas de alarma.
+
+### Tapping Duplex y Circuitos Multiplex
+
+También se ha considerado que un circuito dúplex completo o un circuito telegráfico multiplex, en el que los mensajes se transmiten simultáneamente en direcciones opuestas, no podría ser interceptado y que los circuitos de este carácter aseguran el secreto de las comunicaciones y por lo tanto están protegidos. Esto no es cierto, sin embargo, y se han inventado medios mediante los cuales un mensaje originado en una estación de un circuito dúplex ordinario puede ser interceptado en cualquier parte del circuito, incluso si se envía un segundo mensaje sobre el mismo circuito simultáneamente en la dirección opuesta. Esto significa que un circuito telegráfico multiplex, en el que tantos como ocho mensajes, cuatro en cada dirección, son manejados simultáneamente, pueden ser interceptados y una persona que esté familiarizada con el sistema puede analizar fácilmente los impulsos multiplex para distinguir entre los canales adyacentes y las letras de cada mensaje en cada canal.
+
+Se ha propuesto un método para interceptar un circuito dúplex que se muestra en la Fig. 4. Un relé polar sensible puede usarse para recibir las señales de ambos extremos del circuito, o al usar dos relés polares, las señales en ambas direcciones pueden ser leídas simultáneamente. Cada relé puede controlar un sonador o un dispositivo de grabación adecuado. Un bobinado de cada relé está conectado en serie con la línea, el otro bobinado está conectado en un circuito de tierra a través de una "línea artificial" compuesta de resistencias y condensadores ajustables.
+
+El bobinado de línea de cada relé debe tener relativamente pocas vueltas y debe ser de baja resistencia, el otro bobinado tiene un gran número de vueltas. Cada línea artificial debe ajustarse para ser sustancialmente equivalente a la impedancia de la sección correspondiente de la línea incluyendo la de la estación terminal multiplicada por la relación de vueltas del bobinado del relé.
+
+Las señales transmitidas desde la estación oeste pasarán a través de los bobinados de los relés en la estación de interceptación, una pequeña parte de las señales de la línea también pasará a través de los bobinados y las líneas artificiales a tierra. Las corrientes de señal pasan a través de ambos bobinados del relé en serie, los efectos magnéticos de los dos bobinados actúan uno contra el otro, de modo que la armadura de este relé seguirá las señales. Las mismas señales pasan a través de ambos bobinados del relé en paralelo, los efectos magnéticos oponiéndose y equilibrándose de manera que este relé no responde a las señales de la estación oeste.
+
+De manera similar, las señales de la estación este energizarán el relé este pero no el relé oeste en la estación intermedia, de modo que al usar dispositivos de grabación adecuados asociados con cada relé, se puede obtener una copia de las señales en ambas direcciones.
+
+### Método de operación de la máquina de cifrado
+
+Los mensajes se perforan primero en una cinta de papel mediante el perforador de teclado. El código utilizado se muestra en la Fig. 8. Este es el conocido código telegráfico de impresión de cinco unidades. Cada letra está representada por un pequeño agujero en una o más posiciones a lo largo de la cinta, que puede perforarse en cinco posiciones diferentes a lo largo de cinco "columnas". La Fig. 3 es una copia de un mensaje tal como se preparó por el conjunto de cifrado. Dichos mensajes pueden ser impresos por la máquina directamente en el telegrama en blanco con la dirección y la firma en inglés claro, y si se desea, se puede hacer una copia al carbón al mismo tiempo para propósitos de registro.
+
+### Métodos para prevenir el acceso a los mensajes
+
+Existen dos métodos generales para asegurar el secreto en relación con las comunicaciones, a saber, (1) previniendo o al menos intentando prevenir el acceso a los mensajes o a las líneas de comunicación, y (2) en el caso de las comunicaciones telegráficas al hacer que las líneas sean incapaces de ser interceptadas, ya sea mediante el uso de códigos y cifrados con claves conocidas solo por las partes adecuadas.
+
+En lo que respecta al uso de alarmas por intervención, los dispositivos de alarma sensibles arreglados para operar en pequeños cambios en las constantes eléctricas del circuito de la línea, no son exitosos como medio para prevenir que partes no autorizadas obtengan acceso al circuito. La condición eléctrica de un circuito telegráfico está cambiando continuamente como resultado de variaciones en la temperatura y otras condiciones climáticas. Este hecho limita la utilidad de cualquier sistema de alarma de este tipo, mientras que al usar amplificadores de vacío, una grabación de las señales que pasan por el circuito puede obtenerse sin perturbar apreciablemente la línea y aún sin contacto real con el cable.
+
+Se han inventado sistemas telegráficos que operan exitosamente con corrientes muy pequeñas en las líneas, y que usan bobinas y condensadores para suprimir las armonías en los impulsos de señal, o en otras palabras, para evitar cambios repentinos en el valor de la corriente. Las corrientes inducidas en los circuitos vecinos por tales sistemas serían pequeñas, de modo que sería bastante difícil, si no imposible, que los métodos ordinarios obtuvieran un registro de las señales por su efecto inductivo. Esto se puede lograr, sin embargo, si se usa un equipo de amplificación de vacío moderno. También es obvio que se puede obtener una grabación fácilmente si el cable está intervenido.
+
+Se han hecho muchos intentos para obtener secreto durante la transmisión real de mensajes telegráficos haciendo que los mensajes sean ininteligibles. En un sistema de este tipo, impulsos de señal sucesivos se envían alternativamente sobre dos hilos de línea por medio de un interruptor giratorio que pone la llave de envío en conexión primero con un cable y luego con el otro a cada movimiento de la llave. En la estación receptora, los impulsos se combinan a través del relé. Con este sistema, los mensajes pueden leerse fácilmente si ambos cables están intervenidos, y es posible descifrar los mensajes incluso si solo un cable está intervenido.
+
+### Cifrados de Clave en Movimiento
+
+Si la clave utilizada con este tipo de cifrado es muy larga, de modo que nunca se repite y si alguna parte de esta clave nunca se usa para más de un mensaje, la operación de "romper" el cifrado se vuelve mucho más difícil. Si, ahora, en lugar de usar palabras o frases en inglés, empleamos un compuesto clave de letras seleccionadas absolutamente al azar, se produce un sistema de cifrado que es absolutamente irrompible.
+
+Este método, si se realiza manualmente, es lento y laborioso y propenso a errores. Si ocurren errores, como la omisión o adición de una o más letras, los mensajes son difíciles de descifrar para el destinatario. Ciertas dificultades también estarían involucradas en la preparación, copia y protección de las largas claves aleatorias. Las dificultades con este sistema son tales que lo hacen inadecuado para su uso general, a menos que se usen métodos mecánicos.
+
+### Sistema de Cifrado de Telegramas Impresos
+
+Usando métodos mecánicos, este tipo de cifrado puede hacerse practicable para su uso. La Fig. 1 es una ilustración del cifrador de telegramas mencionado anteriormente, y que funciona sobre este principio. Como se mencionó anteriormente, esta máquina se desarrolló durante la reciente guerra y fue adoptada por el Cuerpo de Señales del Ejército de EE. UU.
+
+### Longitud de la cinta de claves
+
+Con el sistema descrito anteriormente, la cinta de claves debe ser al menos tan larga como la suma de todas las cintas de mensajes utilizadas con ella, ya que los mensajes perderán su secreto en cierta medida si la cinta de claves se usa repetidamente. El uso de una cinta de claves corta y repetitiva puede brindar suficiente secreto para algunos usos sin embargo.
+
+Un rollo de cinta de ocho pulgadas de diámetro contiene aproximadamente 900 pies de cinta y serviría para cifrar unos 18,000 palabras contando cinco caracteres impresos y un espacio por palabra, sin repetir la clave. Si se envían a una velocidad promedio de 45 palabras por minuto, este número de palabras requeriría 400 minutos o casi 7 horas para transmitir.
+
+---
+
+Este archivo contiene todo el contenido necesario en formato .md con el formato enriquecido solicitado. Puedes subirlo directamente a GitHub.
