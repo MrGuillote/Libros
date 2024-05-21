@@ -21,7 +21,8 @@ Como se solicitó en su carta del 10 de febrero, le envío varias copias adicion
 Con los más cordiales saludos, soy,
 
 Sinceramente suyo,  
-[Firma]
+![image](https://github.com/MrGuillote/Libros/assets/89352244/e8007528-f0c4-4022-97df-0a2ca6e5a1f6)
+
 
 Adjunto:  
 6 copias del artículo sobre "Sistemas de Cifrado de Telegramas".
@@ -32,6 +33,10 @@ Adjunto:
 
 **POR G. S. VERNAM**  
 *Asociado, A I E E*
+
+
+![image](https://github.com/MrGuillote/Libros/assets/89352244/3a26f3b6-cd7c-4857-b58e-2715f980be63)
+
 
 #### Resumen
 
@@ -47,13 +52,17 @@ Los ingenieros reconocieron que los telégrafos impresos eran rápidos y preciso
 
 Este "Sistema de Cifrado de Telegramas Impresos" fue llevado a la atención del Cuerpo de Señales. El Cuerpo de Señales se mostró muy interesado, probó el secreto de las comunicaciones manejadas por el sistema y lo probó entre Nueva York y Washington. Esta prueba demostró que el sistema podría usarse con éxito para enviar mensajes en secreto y a una velocidad muchas veces más rápida que los métodos utilizados anteriormente.
 
+![image](https://github.com/MrGuillote/Libros/assets/89352244/665b7c09-1873-466c-b3a9-99774ed7b007)
+
 ### Flexibilidad del Sistema
 
 Este método de cifrado puede utilizarse con máquinas de varios tipos. La máquina impulsada eléctricamente que se muestra en la Fig. 1 se desarrolló durante la guerra, particularmente para el Cuerpo de Señales, Ejército de EE. UU. A fin de ahorrar tiempo en la producción, se usaron partes estándar de telegramas impresos siempre que fue posible con el resultado de que esta máquina tiene la apariencia de un aparato telegráfico de "inicio-parada" con algunas unidades adicionales montadas en un estante a la derecha de la mesa. Este tipo de conjunto de cifrado es particularmente adecuado para manejar grandes cantidades de tráfico a alta velocidad.
 
 Si se requiere algo más pequeño en tamaño y portátil, se puede utilizar la máquina mostrada en la Fig. 2. Esta máquina es liviana y suficientemente portátil, ya que no se requiere corriente eléctrica para su funcionamiento. Es más lenta que la máquina grande y requiere conocimiento del código estándar "Baudot" por parte del operador, pero sus mensajes son igualmente secretos.
 
-Estas máquinas se consideran adecuadas para su uso general por departamentos gubernamentales, empresas, etc., para manejar mensajes confidenciales de manera rápida y secreta. El método de uso puede variarse para adaptarse a las condiciones y de modo que haga que el descifrado no autorizado sea tan difícil como sea necesario hasta el punto en que se vuelva imposible incluso para un experto criptoanalista.
+Estas máquinas se consideran adecuadas para su uso general por departamentos gubernamentales, empresas, 
+![image](https://github.com/MrGuillote/Libros/assets/89352244/f8613a5f-257e-42ba-a283-ba8ab64240a2)
+etc., para manejar mensajes confidenciales de manera rápida y secreta. El método de uso puede variarse para adaptarse a las condiciones y de modo que haga que el descifrado no autorizado sea tan difícil como sea necesario hasta el punto en que se vuelva imposible incluso para un experto criptoanalista.
 
 ### Métodos para prevenir el acceso a los mensajes
 
