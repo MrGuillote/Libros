@@ -21,6 +21,7 @@ Como se solicitó en su carta del 10 de febrero, le envío varias copias adicion
 Con los más cordiales saludos, soy,
 
 Sinceramente suyo,
+![image](https://github.com/MrGuillote/Libros/assets/89352244/4c293830-234f-4472-b165-00a1270918d5)
 
 Adjunto:  
 6 copias del artículo sobre "Sistemas de Cifrado de Telegramas".
@@ -46,19 +47,24 @@ Los ingenieros reconocieron que los telégrafos impresos eran rápidos y preciso
 
 Este "Sistema de Cifrado de Telegramas Impresos" fue llevado a la atención del Cuerpo de Señales. El Cuerpo de Señales se mostró muy interesado, probó el secreto de las comunicaciones manejadas por el sistema y lo probó entre Nueva York y Washington. Esta prueba demostró que el sistema podría usarse con éxito para enviar mensajes en secreto y a una velocidad muchas veces más rápida que los métodos utilizados anteriormente.
 
+![image](https://github.com/MrGuillote/Libros/assets/89352244/644dfb03-771a-4bca-ba38-b889e685a5e4)
+
 ### Flexibilidad del Sistema
 
 Este método de cifrado puede utilizarse con máquinas de varios tipos. La máquina impulsada eléctricamente que se muestra en la Fig. 1 se desarrolló durante la guerra, particularmente para el Cuerpo de Señales, Ejército de EE. UU. A fin de ahorrar tiempo en la producción, se usaron partes estándar de telegramas impresos siempre que fue posible con el resultado de que esta máquina tiene la apariencia de un aparato telegráfico de "inicio-parada" con algunas unidades adicionales montadas en un estante a la derecha de la mesa. Este tipo de conjunto de cifrado es particularmente adecuado para manejar grandes cantidades de tráfico a alta velocidad.
 
-![Figura 1 - Máquina de Cifrado de Telegramas](path/to/figura1.jpg)
-
 Si se requiere algo más pequeño en tamaño y portátil, se puede utilizar la máquina mostrada en la Fig. 2. Esta máquina es liviana y suficientemente portátil, ya que no se requiere corriente eléctrica para su funcionamiento. Es más lenta que la máquina grande y requiere conocimiento del código estándar "Baudot" por parte del operador, pero sus mensajes son igualmente secretos.
 
-![Figura 2 - Máquina Cifrada Portátil](path/to/figura2.jpg)
 
-Estas máquinas se consideran adecuadas para su uso general por departamentos gubernamentales, empresas, etc., para manejar mensajes confidenciales de manera rápida y secreta. El método de uso puede variarse para adaptarse a las condiciones y de modo que haga que el descifrado no autorizado sea tan difícil como sea necesario hasta el punto en que se vuelva imposible incluso para un experto criptoanalista.
+Estas máquinas se consideran adecuadas para su uso general por departamentos gubernamentales, empresas, 
+![image](https://github.com/MrGuillote/Libros/assets/89352244/302017b1-fad5-46cb-a368-0b9b2e9168bd)
+etc., para manejar mensajes confidenciales de manera rápida y secreta. El método de uso puede variarse para adaptarse a las condiciones y de modo que haga que el descifrado no autorizado sea tan difícil como sea necesario hasta el punto en que se vuelva imposible incluso para un experto criptoanalista.
 
-![Figura 3 - Ejemplo de Mensaje Cifrado en Forma Impresa](path/to/figura3.jpg)
+Si existe una demanda apreciable de máquinas de tamaños especiales o que tengan características operativas particulares para usos especiales, estas se pueden construir para emplear el mismo principio de secreto. Por ejemplo, las funciones de cifrado y transmisión a través de un circuito telegráfico pueden combinarse en una sola máquina, si se desea, de modo que, en la estación de envío, los mensajes puedan cifrarse y transmitirse simultáneamente a través del circuito telegráfico, y de modo que, en la estación receptora, los mensajes puedan recibirse, descifrarse automáticamente e imprimirse directamente en texto claro; evitando así la ligera demora causada por el cifrado y descifrado separados de cada mensaje. 
+![image](https://github.com/MrGuillote/Libros/assets/89352244/633eb0af-23c6-4e8b-aecb-cc00f742f634)
+Este método es particularmente adecuado para casos en los que el equipo de cifrado puede conectarse directamente a una línea telegráfica o a un transmisor y receptor de radio y puede ser operado por el mismo personal.
+
+Si los mensajes cifrados deben entregarse a una compañía de telégrafos o cables para su transmisión, deben estar en forma escrita o impresa. Para este propósito, la máquina de cifrado puede arreglarse para imprimir los mensajes cifrados en grupos de cinco letras cada uno, espaciados para formar "palabras". La Fig. 3 es una copia de un mensaje de este tipo, mostrado exactamente como fue preparado por el conjunto de cifrado. Dichos mensajes pueden ser impresos por la máquina directamente en el formulario del telegrama con la dirección y la firma en inglés claro, y si se desea, se puede hacer una copia al carbón al m
 
 ### Métodos para prevenir el acceso a los mensajes
 
@@ -72,9 +78,9 @@ Se han inventado sistemas telegráficos que operan exitosamente con corrientes m
 
 También se ha considerado que un circuito dúplex completo o un circuito telegráfico multiplex, en el que los mensajes se transmiten simultáneamente en direcciones opuestas, no podría ser interceptado y que los circuitos de este carácter aseguran el secreto de las comunicaciones y por lo tanto están protegidos. Esto no es cierto, sin embargo, y se han inventado medios mediante los cuales un mensaje originado en una estación de un circuito dúplex ordinario puede ser interceptado en cualquier parte del circuito, incluso si se envía un segundo mensaje sobre el mismo circuito simultáneamente en la dirección opuesta. Esto significa que un circuito telegráfico multiplex, en el que tantos como ocho mensajes, cuatro en cada dirección, son manejados simultáneamente, pueden ser interceptados y una persona que esté familiarizada con el sistema puede analizar fácilmente los impulsos multiplex para distinguir entre los canales adyacentes y las letras de cada mensaje en cada canal.
 
-![Figura 4 - Método de Interceptar una Línea Dúplex](path/to/figura4.jpg)
-
 Un arreglo para interceptar un circuito dúplex se muestra en la Fig. 4. Un relé polar sensible puede usarse para recibir las señales desde cualquiera de los extremos del circuito, o al usar dos relés polares, las señales en ambas direcciones pueden ser leídas simultáneamente. Cada relé puede controlar un sonador o un dispositivo de grabación adecuado. Un bobinado de cada relé está conectado en serie con la línea, y el otro bobinado está conectado en un circuito a tierra a través de una "línea artificial" compuesta de resistencias y condensadores ajustables.
+
+![image](https://github.com/MrGuillote/Libros/assets/89352244/0ce9b8bf-0a40-4449-865b-a8c4c82a23aa)
 
 El bobinado de línea de cada relé debe tener relativamente pocas vueltas y ser de baja resistencia, mientras que el otro bobinado tiene un gran número de vueltas. Cada línea artificial debe ajustarse para ser sustancialmente equivalente a la impedancia de la sección correspondiente de la línea, incluyendo la de la estación terminal, multiplicada por la relación de vueltas del bobinado del relé.
 
@@ -84,9 +90,9 @@ De manera similar, las señales de la estación este energizarán el relé este 
 
 ### Registro de Cinta de Señales de Impresora Multiplex
 
-Este método puede usarse para interceptar un circuito de impresora multiplex en el que se obtendrá un registro de cinta de la forma mostrada en la Fig. 5. Si esto se toma de un circuito de "dúplex-doble", las letras alternas deben leerse como se indica, para obtener el mensaje de cada canal. Cada tercera o cuarta letra debe elegirse si el circuito se opera mediante el método de "triple-dúplex" o "cuádruple-dúplex". Las letras individuales están en el código ordinario de cinco unidades del impresor, con las polaridades de las señales alternas invertidas. Para descifrar dicho registro de cinta, debe dividirse en unidades de longitudes de cinco puntos. El punto de partida correcto puede encontrarse en no más de cinco ensayos y puede reconocerse por el hecho de que las letras de cada mensaje forman combinaciones coherentes.
-
-![Figura 5 - Registro de Cinta de Señales del Multiplexor](path/to/figura5.jpg)
+Este método puede usarse para interceptar un circuito de impresora multiplex en el que se obtendrá un registro de cinta de la forma mostrada en la Fig. 5. Si esto se toma de un circuito de 
+![image](https://github.com/MrGuillote/Libros/assets/89352244/496380fb-4c45-49ef-90ef-1bc5088532f3)
+"dúplex-doble", las letras alternas deben leerse como se indica, para obtener el mensaje de cada canal. Cada tercera o cuarta letra debe elegirse si el circuito se opera mediante el método de "triple-dúplex" o "cuádruple-dúplex". Las letras individuales están en el código ordinario de cinco unidades del impresor, con las polaridades de las señales alternas invertidas. Para descifrar dicho registro de cinta, debe dividirse en unidades de longitudes de cinco puntos. El punto de partida correcto puede encontrarse en no más de cinco ensayos y puede reconocerse por el hecho de que las letras de cada mensaje forman combinaciones coherentes.
 
 ### Sistemas de Códigos y Cifrados
 
@@ -104,8 +110,6 @@ Existen dos clases generales de cifrados, conocidos respectivamente como cifrado
 
 Un cifrado de transposición puede distinguirse de un cifrado de sustitución mediante el estudio de la frecuencia de ocurrencia de las letras del mensaje por comparación con una tabla de frecuencia del idioma del mensaje original. Los estudios que hemos realizado sobre la frecuencia de las diferentes letras del idioma inglés tal como aparecen en los telegramas enviados a través de nuestros hilos privados, indican que se utilizan ciertas letras aproximadamente como se muestra en la Fig. 6. Es evidente que algunas letras se usan con mucha frecuencia, las vocales a, e, i, o, u, que forman aproximadamente el 40 por ciento del total, siendo la e la letra más comúnmente utilizada de todas. *Este gráfico es similar a los utilizados por los expertos en cifrados.
 
-![Figura 6 - Frecuencia de Ocurrencia de Letras](path/to/figura6.jpg)
-
 En un cifrado de transposición, las letras deben reorganizarse de acuerdo con un sistema definido conocido por el corresponsal receptor. Aquellos que estudian los cifrados nos dicen que tales sistemas suelen ser fáciles de descubrir, particularmente si se intercepta una cantidad considerable de mensajes que tienen dos o más de exactamente la misma longitud. Los cifrados de transposición no son adecuados para su uso con máquinas.
 
 ### Cifrados de Sustitución
@@ -115,11 +119,17 @@ En los cifrados de sustitución, el orden de las letras permanece sin cambios, p
 Texto Plano: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z  
 Cifrado: F Q R U K A H G Z S E M L Y P O B C J V D T X W N I
 
+![image](https://github.com/MrGuillote/Libros/assets/89352244/869c99c7-600c-48fd-8e3d-e4d5021a719b)
+
 Si se prepara una tabla a partir de un conteo de frecuencia de las letras en tal mensaje cifrado, tendrá la apariencia general de la Fig. 6 pero las crestas corresponderán a letras diferentes. Los mensajes de este tipo son fácilmente descifrados por un experto incluso cuando se usa un alfabeto "mixto".
 
-Este tipo de cifrado puede describirse refiriéndose al "cuadrado de cifrado" mostrado en la Fig. 7. En esta tabla, la fila superior representa el texto plano, mientras que a continuación se muestran 26 alfabetos de cifrado, cada uno designado por una "letra clave" dada en la columna de la izquierda. Algunas formas de clave, usualmente una palabra, se usan para listar las letras de esta manera, y se asigna un alfabeto de cifrado diferente a cada letra del mensaje. Un alfabeto de cifrado diferente se usa en un orden repetido, con cada letra sucesiva del mensaje.
+![image](https://github.com/MrGuillote/Libros/assets/89352244/d671734d-ad7a-42ce-8614-2ee11a752b91)
 
-![Figura 7 - Cuadrado de Cifrado](path/to/figura7.jpg)
+Se utiliza, como se ilustra arriba, en la que las letras del alfabeto cifrado no están en el orden alfabético usual. 
+Usando más de un alfabeto, el cifrado puede hacerse más difícil de "romper". El método puede describirse refiriéndose al "cuadrado de cifrado" mostrado en la Fig. 7. En esta tabla, el alfabeto superior representa el texto plano, mientras que abajo se muestran 26 alfabetos cifrados, cada uno designado por una letra "clave" dada en la columna izquierda. Se usa alguna forma de clave, usualmente una palabra, las letras de esta palabra clave designan los alfabetos y el orden en el que se deben usar. Un alfabeto cifrado diferente se usa de manera repetitiva, con cada letra sucesiva del mensaje. 
+
+Este tipo de cifrado puede distinguirse por el hecho de que el gráfico de frecuencia es bastante plano, la frecuencia de ocurrencia de todas las letras es aproximadamente la misma. Cada alfabeto cifrado se usa repetidamente a intervalos regulares. Al encontrar primero este intervalo y luego estudiar cada alfabeto por separado, los mensajes de este tipo pueden descifrarse fácilmente por un experto.
+
 
 ### Cifrados de Clave en Movimiento
 
@@ -129,41 +139,43 @@ Este método, si se realiza manualmente, es lento y laborioso y propenso a error
 
 ### Sistema de Cifrado de Telegramas Impresos
 
-Usando métodos mecánicos, este tipo de cifrado puede hacerse practicable para su uso. La Fig. 1 es una ilustración del cifrador de telegramas mencionado anteriormente, y que funciona sobre este principio. Como se mencionó anteriormente, esta máquina se desarrolló durante la reciente guerra y fue adoptada por el Cuerpo de Señales del Ejército de EE. UU.
-
-### Método de Operación de la Máquina de Cifrado
-
-Los mensajes se perforan primero en una cinta de papel mediante el perforador de teclado. El código utilizado es el conocido código de cinco unidades del telégrafo impreso. Cada letra está representada por un pequeño orificio en una o más de cinco posiciones a lo largo de la cinta.
-
-![Figura 8 - Código de Cinta del Telégrafo Impreso](path/to/figura8.jpg)
-
-El mensaje cifrado se perfora primero en una cinta de papel utilizando el perforador de teclado. El código utilizado se muestra en la Fig. 8. Este es el conocido código telegráfico de impresión de cinco unidades. Cada letra está representada por un pequeño agujero en una o más posiciones a lo largo de cinco "columnas". La Fig. 3 es una copia de un mensaje tal como se preparó por el conjunto de cifrado. Dichos mensajes pueden ser impresos por la máquina directamente en el telegrama en blanco con la dirección y la firma en inglés claro, y si se desea, se puede hacer una copia al carbón al mismo tiempo para propósitos de registro.
-
-![Figura 9 - Código de Cinta del Telégrafo Impreso](path/to/figura9.jpg)
-
-### Longitud de la Cinta de Claves
-
-Con el sistema descrito anteriormente, la cinta de claves debe ser al menos tan larga como la suma de todas las cintas de mensajes utilizadas con ella, ya que los mensajes perderán su secreto en cierta medida si la cinta de claves se usa repetidamente. El uso de una cinta de claves corta y repetitiva puede brindar suficiente secreto para algunos usos sin embargo.
-
-Un rollo de cinta de ocho pulgadas de diámetro contiene aproximadamente 900 pies de cinta y serviría para cifrar unos 18,000 palabras contando cinco caracteres impresos y un espacio por palabra, sin repetir la clave. Si se envían a una velocidad promedio de 45 palabras por minuto, este número de palabras requeriría 400 minutos o casi 7 horas para transmitir.
-
-### Sistema de Cifrado de Telegramas Impresos
-
-Usando métodos mecánicos, este tipo de cifrado puede hacerse practicable para su uso. La Fig. 1 es una ilustración del cifrador de telegramas mencionado anteriormente, y que funciona sobre este principio. Como se mencionó anteriormente, esta máquina se desarrolló durante la reciente guerra y fue adoptada por el Cuerpo de Señales del Ejército de EE. UU.
+Usando métodos mecánicos, este tipo de cifrado puede hacerse practicable para su uso. La Fig. 1 es una ilustración de la máquina de cifrado mencionada anteriormente, y que funciona según este principio. Como se mencionó anteriormente, esta máquina se desarrolló durante la reciente guerra y fue adoptada por el Cuerpo de Señales del Ejército de EE. UU.
 
 Ciertas partes de esta máquina son las mismas que se usan para los telégrafos impresores ordinarios, como los descritos en artículos recientes presentados ante el Instituto. Por esta razón, no será necesario describir en detalle las partes que se utilizan comúnmente en dichos sistemas, como el perforador de teclado, los transmisores y la impresora.
 
-### Método de Operación
+### Método de Operación de la Máquina de Cifrado
 
-Los mensajes se perforan primero en una cinta de papel mediante el perforador de teclado. El código utilizado es el conocido código de cinco unidades del telégrafo impreso, donde cada letra está representada por un pequeño orificio en una o más de cinco posiciones a lo largo de la cinta.
+Los mensajes se perforan primero en una cinta de papel mediante el perforador de teclado. El código utilizado se muestra en la Fig. 8. Este es el conocido código telegráfico de impresión de cinco unidades. Cada letra está representada por un pequeño orificio de alimentación y uno o más orificios más grandes que pueden perforarse en cinco posiciones diferentes a lo largo de la cinta. Dado que en cada una de estas cinco posiciones un orificio puede o no ser perforado, hay (2)^5 o 32 combinaciones posibles en este código, de las cuales 26 se usan para designar letras, y las otras 6 representan las llamadas "marcas especiales", que son el "espacio", "retorno de carro", "alimentación de línea", "cambio a cifras", "cambio a letras" y la señal de "vacío" o "inactividad".
 
-![Figura 10 - Método de Perforación de Cinta](path/to/figura10.jpg)
+La "clave" de cifrado puede tomar la forma de otra cinta de características similares con caracteres perforados en ella al azar y con cada décimo carácter numerado, para que la cinta pueda ajustarse a cualquier posición de inicio designada. Las cintas de claves se preparan de antemano, perforándose la clave original a mano, 
+![image](https://github.com/MrGuillote/Libros/assets/89352244/965fc656-1ba9-45ef-91a4-748bebdd65d9)
+como al operar el teclado al azar, haciéndose copias adicionales automáticamente por la máquina.
 
-Los caracteres de los mensajes cifrados, formados de esta manera, pueden registrarse como perforaciones en una tercera cinta. Para este propósito, se utiliza un "perforador de máquinas". Este dispositivo es similar en muchos aspectos al perforador de teclado y se muestra en la Fig. 10. La cinta, de un carrete en la parte superior de la máquina, pasa a través del bloque de perforación en la esquina inferior izquierda de la máquina. Aquí pasa bajo una placa de matriz y sobre un grupo de seis punzones, que pueden ser forzados a través de la cinta por la acción de un martillo electromagnético. Cinco de estos punzones son tan cortos que son accionados directamente por el martillo y son empujados a través de la cinta solo cuando un "dedo selector" individual es interpuesto entre el punzón y el martillo. Los cinco "dedos selectores" son accionados por cinco imanes que pueden ser controlados por los relés mostrados en la Fig. 9. Una rueda de estrella operada por trinquete avanza la cinta hacia adelante después de que cada carácter ha sido perforado.
+La cinta de mensaje se pasa a través de una unidad conocida como transmisor, donde los orificios en la cinta sirven para controlar las posiciones de cinco palancas de contacto, cada una de las cuales hace contacto con uno de dos bus-bars. La cinta de clave controla los contactos de un segundo transmisor de cinta. Los contactos de los dos transmisores están conectados a un conjunto de cinco imanes o relés, como se muestra en la Fig. 9. Cada imán se energizará si los contactos correspondientemente numerados de los dos transmisores están contra bus-bars opuestos, 
+![image](https://github.com/MrGuillote/Libros/assets/89352244/9f7998d5-e3a4-4552-989e-b8da5db27aa1)
+pero no si están haciendo contacto con bus-bars similares. En el diagrama, los contactos 1 y 2 del transmisor de mensajes están contra el bus-bar izquierdo o positivo, esta configuración representa la letra A. Los contactos 1, 4 y 5 del transmisor de clave están contra el bus-bar positivo, representando la letra B en el código del impresor. Esto energizará los imanes 2, 4 y 5, cuya combinación representa la letra G.
 
-![Figura 11 - Método de Perforación de Cinta](path/to/figura11.jpg)
+Todas las posibles combinaciones resultantes de varios caracteres en las dos cintas podrían mostrarse en un cuadrado de cifrado similar al de la Fig. 7, excepto que tendría 32 caracteres en un lado en lugar de 26.
 
-El mensaje cifrado preparado de esta manera es ininteligible en forma y puede enviarse a la estación receptora por mensajero o por correo, o si se desea, puede transmitirse por radio o cable y reproducirse mediante otro perforador de máquinas en la estación receptora. La cinta de cifrado se ejecuta a través del transmisor de mensajes, donde sus caracteres se combinan con los de una cinta de claves duplicada para reproducir el mensaje original, que se imprimirá en forma de página y en "texto claro".
+Los caracteres de los mensajes cifrados, formados de esta manera, pueden registrarse como perforaciones en una tercera cinta. Para este propósito, se utiliza un "perforador de máquinas". Este dispositivo es similar en muchos aspectos al perforador de teclado y se muestra en la Fig. 10. La cinta, de un carrete en la parte superior de la máquina, pasa a través del bloque de perforación en la esquina frontal izquierda de la máquina. Aquí pasa bajo una placa de matriz y sobre un grupo de seis punzones, que pueden ser forzados a través de la cinta por la acción de un martillo electromagnético. Cinco de estos punzones son demasiado cortos para ser accionados directamente por el martillo y son empujados a través de la cinta solo cuando un "dedo selector" individual se interpone entre el punzón y el martillo. Los cinco dedos selectores son accionados por cinco imanes que pueden ser controlados por los relés mostrados en la Fig. 9. Una rueda de estrella operada por trinquete avanza la cinta hacia adelante después de que cada carácter ha sido perforado.
+
+El mensaje cifrado preparado de esta manera es ininteligible en forma y puede enviarse a la estación receptora por mensajero o por correo, o si se desea, 
+![image](https://github.com/MrGuillote/Libros/assets/89352244/506ebc9f-41b7-44e7-bb23-a050b36a6b17)
+puede transmitirse por radio o cable y reproducirse mediante otro perforador de máquinas en la estación receptora. La cinta de cifrado se ejecuta a través del transmisor de mensajes, donde sus caracteres se combinan con los de una cinta de claves duplicada para reproducir el mensaje original, que se imprimirá en forma 
+
+### Longitud de la Cinta de Claves
+
+Con el sistema descrito anteriormente, la cinta de claves debe ser al menos tan larga como la suma de todas las cintas de mensajes utilizadas con ella, ya que los mensajes perderán su secreto en cierta medida si la cinta de claves se usa repetidamente. El uso de una clave corta y repetitiva puede brindar suficiente secreto para algunos usos, sin embargo.
+
+Un rollo de cinta de ocho pulgadas de diámetro contiene aproximadamente 900 pies de cinta y serviría para cifrar unas 18,000 palabras contando cinco caracteres impresos y un espacio por palabra, sin repetir la clave. Si se envían a una velocidad promedio de 45 palabras por minuto, este número de palabras requeriría 400 minutos o casi 7 horas para transmitir.
+
+Para reducir la cantidad de cinta de claves requerida para manejar grandes cantidades de tráfico, se ideó el sistema de "clave doble". En este sistema se usan dos cintas de claves, los extremos de cada cinta se pegan juntos para formar un bucle de aproximadamente siete pies de circunferencia. Las cintas deben diferir en longitud por un carácter o por algún número que no sea un factor del número de caracteres en ninguna de las cintas. Se utiliza un transmisor separado para cada cinta, y los caracteres de las dos cintas de claves se combinan, mediante un método similar al mostrado en la Fig. 9, con los de la cinta de mensajes para formar el mensaje cifrado.
+
+El resultado es el mismo que si las dos cintas de claves se combinaran primero para producir una clave larga no repetitiva, que luego se combina con la cinta de mensajes. Esta clave larga y única no es, estrictamente hablando, una clave puramente aleatoria a lo largo de toda su longitud, ya que está compuesta por combinaciones de las dos cintas de claves originales y relativamente cortas. Los caracteres en esta clave no se repiten en la misma secuencia a intervalos regulares y cortos, como sería el caso si se usara solo un bucle de cinta de claves. El número de caracteres en esta clave única equivalente es igual al producto del número de caracteres en los dos bucles de cinta, y puede fácilmente exceder 600,000 antes de que alguna parte de la clave comience a repetirse. Si se tiene el debido cuidado de usar el sistema para evitar dar información al enemigo sobre las longitudes de los dos bucles de cinta de claves o sus configuraciones iniciales y para evitar la posibilidad de reutilizar alguna parte de la clave única resultante, este sistema es extremadamente difícil de romper incluso para un criptoanalista experto que tenga un gran número de mensajes y pleno conocimiento de la construcción de la máquina y su método de operación.
+
+El Capitán W. F. Friedman, criptoanalista del Cuerpo de Señales del Ejército de los EE. UU., ha inventado recientemente algunas modificaciones de este sistema destinadas a eliminar la pérdida de secreto que resulta de usar las dos cintas de claves repetitivas comparativamente cortas en lugar de la cinta de clave única larga no repetitiva. Estas modificaciones consisten en cambiar a intervalos el orden de conexión de los cinco contactos de uno o más de los transmisores de cinta o en agregar una tercera cinta de clave y transmisor dispuestos de tal manera que la cinta de clave adicional no avance en sincronía con las otras dos cintas de claves, sino que comience y se detenga a intervalos irregulares. Cualquiera de estos métodos, utilizados adecuadamente, hace que el descifrado no autorizado sea prácticamente imposible y, al mismo tiempo, no complica indebidamente la máquina o su método de operación.
+
+Con el sistema de cinta de clave doble, el manejo de grandes volúmenes de tráfico se simplifica enormemente. Las cintas deben estar numeradas para que el operador de descifrado pueda configurarlas en el punto de inicio correcto para cada mensaje, y deben adoptarse reglas para que ambas cintas de claves nunca se configuren dos veces en el mismo punto de inicio. La información sobre las configuraciones correctas para las cintas de claves para descifrar cada mensaje debe ser enviada al operador de descifrado. Estas configuraciones pueden preestablecerse o pueden ser seleccionadas arbitrariamente por el operador de envío. En este último caso, los números que representan las configuraciones de las cintas de claves deben anteceder al mensaje. Estos "indicadores de clave" deben ser preferentemente cifrados pasándolos por la máquina junto con una cinta de clave especial que se usa solo para este propósito.
 
 ### Velocidad de Operación
 
@@ -173,6 +185,7 @@ Este tipo de máquina fue operada por el Cuerpo de Señales a través de sus cir
 
 Este sistema de cifrado fue demostrado ante los delegados en la Conferencia Internacional de Comunicaciones Preliminar en octubre de 1922. Durante esta demostración, los mensajes cifrados se enviaron a través de un circuito que contenía un enlace de radio, como se ilustra en la Fig. 11. El equipo de radio era el mismo que se empleó un año antes en las pruebas sobre la operación de telégrafos multiplex y de arranque-parada por radio y se describe en otra parte.
 
-![Figura 11 - Circuito para Demostraciones de Cifrado por Radio](path/to/figura11.jpg)
+![image](https://github.com/MrGuillote/Libros/assets/89352244/285f4278-44dd-43ba-b89f-b09b433c5817)
+
 
 En conclusión, queremos expresar nuestro agradecimiento por la asistencia brindada por los oficiales del Cuerpo de Señales y del Estado Mayor del Ejército de los EE. UU., en la realización de pruebas y ensayos del sistema de cifrado de telegramas, y especialmente a Lt.-Col. J. O. Mauborgne, del Cuerpo de Señales, por sus consejos en relación con este desarrollo y por su ayuda en la organización de las pruebas para determinar su secreto y demostrar su viabilidad para el uso del Ejército. También deseamos expresar nuestro agradecimiento por los servicios prestados por el Departamento de Cifrado de los Laboratorios Riverbank, Ginebra, Illinois, y por el Coronel George Fabyan, jefe de estos laboratorios, en la realización de pruebas del secreto de los mensajes cifrados de diversas maneras con estas máquinas.
