@@ -1,3 +1,5 @@
+<h1 align="center">Velocidad de Operación</h1>
+
 # Sistemas de Cifrado de Telegramas
 
 ## Extracto de la carta
