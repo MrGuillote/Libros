@@ -1,4 +1,6 @@
-<h1 align="center">Velocidad de Operación</h1>
+<h1 style="font-size: 60px; text-align: center;">VERNAM</h1>
+
+
 
 # Sistemas de Cifrado de Telegramas
 
