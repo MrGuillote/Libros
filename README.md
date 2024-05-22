@@ -25,6 +25,7 @@ Como se solicitó en su carta del 10 de febrero, le envío varias copias adicion
 Con los más cordiales saludos, soy,
 
 Sinceramente suyo,
+
 ![image](https://github.com/MrGuillote/Libros/assets/89352244/4c293830-234f-4472-b165-00a1270918d5)
 
 Adjunto:  
@@ -61,11 +62,15 @@ Si se requiere algo más pequeño en tamaño y portátil, se puede utilizar la m
 
 
 Estas máquinas se consideran adecuadas para su uso general por departamentos gubernamentales, empresas, 
+
 ![image](https://github.com/MrGuillote/Libros/assets/89352244/302017b1-fad5-46cb-a368-0b9b2e9168bd)
+
 etc., para manejar mensajes confidenciales de manera rápida y secreta. El método de uso puede variarse para adaptarse a las condiciones y de modo que haga que el descifrado no autorizado sea tan difícil como sea necesario hasta el punto en que se vuelva imposible incluso para un experto criptoanalista.
 
 Si existe una demanda apreciable de máquinas de tamaños especiales o que tengan características operativas particulares para usos especiales, estas se pueden construir para emplear el mismo principio de secreto. Por ejemplo, las funciones de cifrado y transmisión a través de un circuito telegráfico pueden combinarse en una sola máquina, si se desea, de modo que, en la estación de envío, los mensajes puedan cifrarse y transmitirse simultáneamente a través del circuito telegráfico, y de modo que, en la estación receptora, los mensajes puedan recibirse, descifrarse automáticamente e imprimirse directamente en texto claro; evitando así la ligera demora causada por el cifrado y descifrado separados de cada mensaje. 
+
 ![image](https://github.com/MrGuillote/Libros/assets/89352244/633eb0af-23c6-4e8b-aecb-cc00f742f634)
+
 Este método es particularmente adecuado para casos en los que el equipo de cifrado puede conectarse directamente a una línea telegráfica o a un transmisor y receptor de radio y puede ser operado por el mismo personal.
 
 Si los mensajes cifrados deben entregarse a una compañía de telégrafos o cables para su transmisión, deben estar en forma escrita o impresa. Para este propósito, la máquina de cifrado puede arreglarse para imprimir los mensajes cifrados en grupos de cinco letras cada uno, espaciados para formar "palabras". La Fig. 3 es una copia de un mensaje de este tipo, mostrado exactamente como fue preparado por el conjunto de cifrado. Dichos mensajes pueden ser impresos por la máquina directamente en el formulario del telegrama con la dirección y la firma en inglés claro, y si se desea, se puede hacer una copia al carbón al m
@@ -95,7 +100,9 @@ De manera similar, las señales de la estación este energizarán el relé este 
 ### Registro de Cinta de Señales de Impresora Multiplex
 
 Este método puede usarse para interceptar un circuito de impresora multiplex en el que se obtendrá un registro de cinta de la forma mostrada en la Fig. 5. Si esto se toma de un circuito de 
+
 ![image](https://github.com/MrGuillote/Libros/assets/89352244/496380fb-4c45-49ef-90ef-1bc5088532f3)
+
 "dúplex-doble", las letras alternas deben leerse como se indica, para obtener el mensaje de cada canal. Cada tercera o cuarta letra debe elegirse si el circuito se opera mediante el método de "triple-dúplex" o "cuádruple-dúplex". Las letras individuales están en el código ordinario de cinco unidades del impresor, con las polaridades de las señales alternas invertidas. Para descifrar dicho registro de cinta, debe dividirse en unidades de longitudes de cinco puntos. El punto de partida correcto puede encontrarse en no más de cinco ensayos y puede reconocerse por el hecho de que las letras de cada mensaje forman combinaciones coherentes.
 
 ### Sistemas de Códigos y Cifrados
@@ -152,11 +159,15 @@ Ciertas partes de esta máquina son las mismas que se usan para los telégrafos 
 Los mensajes se perforan primero en una cinta de papel mediante el perforador de teclado. El código utilizado se muestra en la Fig. 8. Este es el conocido código telegráfico de impresión de cinco unidades. Cada letra está representada por un pequeño orificio de alimentación y uno o más orificios más grandes que pueden perforarse en cinco posiciones diferentes a lo largo de la cinta. Dado que en cada una de estas cinco posiciones un orificio puede o no ser perforado, hay (2)^5 o 32 combinaciones posibles en este código, de las cuales 26 se usan para designar letras, y las otras 6 representan las llamadas "marcas especiales", que son el "espacio", "retorno de carro", "alimentación de línea", "cambio a cifras", "cambio a letras" y la señal de "vacío" o "inactividad".
 
 La "clave" de cifrado puede tomar la forma de otra cinta de características similares con caracteres perforados en ella al azar y con cada décimo carácter numerado, para que la cinta pueda ajustarse a cualquier posición de inicio designada. Las cintas de claves se preparan de antemano, perforándose la clave original a mano, 
+
 ![image](https://github.com/MrGuillote/Libros/assets/89352244/965fc656-1ba9-45ef-91a4-748bebdd65d9)
+
 como al operar el teclado al azar, haciéndose copias adicionales automáticamente por la máquina.
 
 La cinta de mensaje se pasa a través de una unidad conocida como transmisor, donde los orificios en la cinta sirven para controlar las posiciones de cinco palancas de contacto, cada una de las cuales hace contacto con uno de dos bus-bars. La cinta de clave controla los contactos de un segundo transmisor de cinta. Los contactos de los dos transmisores están conectados a un conjunto de cinco imanes o relés, como se muestra en la Fig. 9. Cada imán se energizará si los contactos correspondientemente numerados de los dos transmisores están contra bus-bars opuestos, 
+
 ![image](https://github.com/MrGuillote/Libros/assets/89352244/9f7998d5-e3a4-4552-989e-b8da5db27aa1)
+
 pero no si están haciendo contacto con bus-bars similares. En el diagrama, los contactos 1 y 2 del transmisor de mensajes están contra el bus-bar izquierdo o positivo, esta configuración representa la letra A. Los contactos 1, 4 y 5 del transmisor de clave están contra el bus-bar positivo, representando la letra B en el código del impresor. Esto energizará los imanes 2, 4 y 5, cuya combinación representa la letra G.
 
 Todas las posibles combinaciones resultantes de varios caracteres en las dos cintas podrían mostrarse en un cuadrado de cifrado similar al de la Fig. 7, excepto que tendría 32 caracteres en un lado en lugar de 26.
@@ -164,7 +175,9 @@ Todas las posibles combinaciones resultantes de varios caracteres en las dos cin
 Los caracteres de los mensajes cifrados, formados de esta manera, pueden registrarse como perforaciones en una tercera cinta. Para este propósito, se utiliza un "perforador de máquinas". Este dispositivo es similar en muchos aspectos al perforador de teclado y se muestra en la Fig. 10. La cinta, de un carrete en la parte superior de la máquina, pasa a través del bloque de perforación en la esquina frontal izquierda de la máquina. Aquí pasa bajo una placa de matriz y sobre un grupo de seis punzones, que pueden ser forzados a través de la cinta por la acción de un martillo electromagnético. Cinco de estos punzones son demasiado cortos para ser accionados directamente por el martillo y son empujados a través de la cinta solo cuando un "dedo selector" individual se interpone entre el punzón y el martillo. Los cinco dedos selectores son accionados por cinco imanes que pueden ser controlados por los relés mostrados en la Fig. 9. Una rueda de estrella operada por trinquete avanza la cinta hacia adelante después de que cada carácter ha sido perforado.
 
 El mensaje cifrado preparado de esta manera es ininteligible en forma y puede enviarse a la estación receptora por mensajero o por correo, o si se desea, 
+
 ![image](https://github.com/MrGuillote/Libros/assets/89352244/506ebc9f-41b7-44e7-bb23-a050b36a6b17)
+
 puede transmitirse por radio o cable y reproducirse mediante otro perforador de máquinas en la estación receptora. La cinta de cifrado se ejecuta a través del transmisor de mensajes, donde sus caracteres se combinan con los de una cinta de claves duplicada para reproducir el mensaje original, que se imprimirá en forma 
 
 ### Longitud de la Cinta de Claves
